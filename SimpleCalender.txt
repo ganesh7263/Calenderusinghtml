@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table {
+                border-collapse: collapse;
+                background: rgb(96, 96, 160);
+                color: black;
+            }
+
+             td {
+        border: 1px solid black;
+        border-radius: 30px;
+    }
+    
+             td {
+                font-size: 60px;
+            }
+        </style>
+    </head>
+   
+    <body>
+        <!--
+            Here we are using attributes like cellspacing and
+             cellpadding
+        -->
+
+        <!-- The purpose of the cellpadding is the space 
+            that a user want between the border of cell and its content
+        -->
+
+        <!-- Cellspacing is used to specify the space between
+        the cell and its contents-->
+
+        <h2 align="middle" style="color: green;">
+            June 2022
+        </h2>
+        <br/>
+
+        <table bgcolor="grey" align="center"
+        cellspacing="170" cellpadding="17">
+
+        <!-- The tr tag is used to enter rows in the table-->
+
+        <!-- It is used to give the heading to the table.
+          We can give the heading to  the top and bottom 
+          of the table -->
+
+          <caption align = "bottom">
+              <!-- Here we have used the attribute that is style
+                   and we have colored the sentence to make it better 
+                   depending on the page-->
+          </caption>
+
+          <!-- Here th stand for the heading of the table that comes
+               in the forst row -->
+
+          <!-- The text in this table header tag will appear as
+                bold and is center aligned-->
+
+                <thread>
+                    <tr>
+                        <!-- here we have applied inline style to make
+                            ot more attractive-->
+                            <th style="color: white; background: black;">Sunday</th>
+                            <th style="color: white; background: black;">Monday</th>
+                            <th style="color: white; background: black;"> Tuesday</th>
+                            <th style="color: white; background: black;"> Wednesday</th>
+                            <th style="color: white; background: black;"> Thursday</th>
+                            <th style="color: white; background: black;"> Friday</th>
+                            <th style="color: white; background: black;">Saturday</th>
+                    </tr>
+                </thread>
+
+                <tbody>
+                    <!--
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>              
+                    </tr>
+                    -->
+                    <tr></tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>01</td>
+                        <td>02</td>
+                        <td>03</td>
+                        <td>04</td>
+                    </tr>
+                    <tr>
+                        <td>05</td>
+                        <td>06</td>
+                        <td>07</td>
+                        <td>08</td>
+                        <td>09</td>
+                        <td>10</td>
+                        <td>11</td>
+                     </tr>
+                     <td>12</td>
+                     <td>13</td>
+                     <td>14</td>
+                     <td>15</td>
+                     <td>16</td>
+                     <td>17</td>
+                     <td>18</td>
+                    </tr>
+                    <tr>
+                        <td>19</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td> </td>
+                        <td> </td>
+                        
+                    </tr>
+
+             </tbody>
+
+       </table>
+    </body>
+</html>
